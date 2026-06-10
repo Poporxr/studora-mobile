@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "studora-mobile",
-    "slug": "studora-mobile",
+    "slug": "studora-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "11c0db64-cf0f-4dec-896a-0d3c8746c407"
+      }
+    },
+    "owner": "devpopors-team"
   }
 }
